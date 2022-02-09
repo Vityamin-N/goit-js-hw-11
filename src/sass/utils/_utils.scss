@@ -1,0 +1,15 @@
+%btn {
+    display: flex;
+    padding: 0.5rem;
+    background-color: #ccc;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 250ms linear, background-color 250ms linear, border-color 250ms linear;
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: transparent;
+      border-color: #ccc;
+    }
+  }
